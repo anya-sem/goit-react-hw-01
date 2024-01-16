@@ -1,0 +1,28 @@
+.container {
+  border: 1.5px solid #ededed;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  width: 590px;
+  border: none;
+  border-collapse: collapse;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.head {
+  font-weight: bold;
+  padding: 5px;
+  background: #9dc5cf;
+  border: 1.5px solid #cfcfcf;
+}
+.data {
+  border: 1.5px solid #cfcfcf;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}

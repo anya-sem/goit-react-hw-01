@@ -1,0 +1,46 @@
+.list {
+  border: 1.5px solid #ededed;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.item {
+  border: 1.5px solid #9dc5cf;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1.5px solid #cfcfcf;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: 14px;
+}
+
+.status.isOnline {
+  color: #179113;
+}
+
+.status.isOffline {
+  color: #c71616;
+}
